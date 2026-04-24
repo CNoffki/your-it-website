@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="Contact">
+
+  <Header />
+
+  <section class="max-w-4xl mx-auto px-6 py-24">
+    <h1 class="text-3xl font-bold mb-6">Contact</h1>
+
+    <p class="text-gray-600 mb-8 max-w-xl">
+      If you need help with your IT, want to discuss a project, or just want a second opinion,
+      get in touch and we can have a quick chat.
+    </p>
+
+    <div class="space-y-4">
+<p><strong>Email:</strong> 
+  <a href="mailto:hello@your-it-support.co.uk" class="text-blue-600 hover:underline">
+    hello@your-it-support.co.uk
+  </a>
+</p>    </div>
+
+    <div class="mt-8">
+      <a href="mailto:hello@your-it-support.co.uk" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+        Email me
+      </a>
+    </div>
+  </section>
+
+</Layout>

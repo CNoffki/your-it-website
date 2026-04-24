@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="Services">
+
+  <Header />
+
+  <section class="max-w-4xl mx-auto px-6 py-24">
+    <h1 class="text-3xl font-bold mb-10">Services</h1>
+
+    <!-- Core support -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">🛠️ IT Support & Troubleshooting</h2>
+      <p class="text-gray-600 mb-4">
+        Day-to-day IT support, fixing issues quickly and keeping systems running. Most work starts here — something isn’t working, or things just need to be set up properly.
+      </p>
+      <ul class="text-gray-600 list-disc pl-5 space-y-1">
+        <li>Website and hosting issues</li>
+        <li>Email, domains and DNS problems</li>
+        <li>General troubleshooting and system fixes</li>
+        <li>Ongoing maintenance and support</li>
+      </ul>
+    </div>
+
+    <!-- Cloud & SaaS -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">☁️ Cloud, SaaS & Infrastructure</h2>
+      <p class="text-gray-600 mb-4">
+        Setup, migration and support across modern cloud platforms and SaaS tools. Not sold as products — just implemented properly.
+      </p>
+      <ul class="text-gray-600 list-disc pl-5 space-y-1">
+        <li>Microsoft 365 & Google Workspace</li>
+        <li>Email migrations and setup</li>
+        <li>AWS, Azure, GCP and Cloudways</li>
+        <li>Backup (Backblaze) and endpoint security (ESET)</li>
+      </ul>
+    </div>
+
+    <!-- Networking -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">🌐 Networking & Infrastructure</h2>
+      <p class="text-gray-600 mb-4">
+        Reliable, properly configured networks — from small office setups to more complex environments.
+      </p>
+      <ul class="text-gray-600 list-disc pl-5 space-y-1">
+        <li>Network setup and optimisation</li>
+        <li>WiFi and connectivity issues</li>
+        <li>UniFi and similar systems</li>
+      </ul>
+    </div>
+
+    <!-- Databases -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">🗄️ Databases & Development</h2>
+      <p class="text-gray-600 mb-4">
+        Practical database work — both support and development — across a range of platforms.
+      </p>
+      <ul class="text-gray-600 list-disc pl-5 space-y-1">
+        <li>SQL Server, MySQL, PostgreSQL</li>
+        <li>Snowflake and data platforms</li>
+        <li>Query optimisation and troubleshooting</li>
+        <li>Custom development and integrations</li>
+      </ul>
+    </div>
+
+    <!-- Web & Ecommerce -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">🛒 Web & E-commerce</h2>
+      <p class="text-gray-600 mb-4">
+        Websites and online stores that work properly, and don’t become a maintenance headache.
+      </p>
+      <ul class="text-gray-600 list-disc pl-5 space-y-1">
+        <li>WordPress builds and fixes</li>
+        <li>Shopify, EKM and OpenCart</li>
+        <li>Hosting, performance and stability</li>
+        <li>Integrations and custom functionality</li>
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="mb-10 p-6 border rounded-xl hover:shadow-sm transition">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6">🚀 Projects & Consultancy</h2>
+      <p class="text-gray-600">
+        From one-off fixes to larger projects — including multi-site builds and system overhauls. If it’s not something I handle directly, I’ll bring in the right people and manage it properly.
+      </p>
+    </div>
+<div class="mt-16 p-6 border rounded-xl">
+  <h3 class="font-semibold mb-2">Not sure what you need?</h3>
+  <p class="text-gray-600 mb-4">
+    If something isn’t working or you just want a second opinion, get in touch and we can have a quick chat.
+  </p>
+  <a href="/contact" class="text-blue-600 hover:underline">
+    Contact me →
+  </a>
+</div>
+  </section>
+
+</Layout>
