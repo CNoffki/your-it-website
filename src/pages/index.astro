@@ -1,11 +1,59 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Header from '../components/Header.astro';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="IT Support That Just Works">
+
+  <Header />
+
+  <section class="max-w-5xl mx-auto px-6 py-20">
+    <h1 class="text-4xl font-bold mb-6">
+      IT Support That Just Works
+    </h1>
+
+    <p class="text-lg text-gray-600 mb-8 max-w-2xl">
+      No jargon, no unnecessary complexity — just reliable IT support,
+      infrastructure, and systems that do what they’re supposed to.
+    </p>
+
+    <a href="/contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+      Get in touch
+    </a>
+  </section>
+<section class="max-w-5xl mx-auto px-6 py-16 border-t">
+  <h2 class="text-2xl font-semibold mb-10">Services</h2>
+
+  <div class="grid md:grid-cols-2 gap-10">
+
+    <div>
+      <h3 class="font-semibold mb-2">IT Support</h3>
+      <p class="text-gray-600">
+        Day-to-day support, troubleshooting and maintenance to keep everything running smoothly.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold mb-2">Networking</h3>
+      <p class="text-gray-600">
+        Reliable network setup and configuration, from small offices to more complex environments.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold mb-2">Cloud & Hosting</h3>
+      <p class="text-gray-600">
+        AWS, Cloudways and hosting environments designed properly from the start.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold mb-2">Web & Systems</h3>
+      <p class="text-gray-600">
+        WordPress, custom systems and integrations that actually fit your business.
+      </p>
+    </div>
+
+  </div>
+</section>
 </Layout>
