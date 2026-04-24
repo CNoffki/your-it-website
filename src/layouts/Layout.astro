@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Footer from '../components/Footer.astro';
 const { title = "Your IT Support" } = Astro.props;
 ---
 <!doctype html>
@@ -14,6 +15,7 @@ const { title = "Your IT Support" } = Astro.props;
 	</head>
 	<body class="bg-white text-gray-900 antialiased leading-relaxed">
 		<slot />
+		<footer />
 	</body>
 </html>
 
